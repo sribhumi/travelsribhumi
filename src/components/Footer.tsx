@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="text-center space-y-2">
             <p className="text-gray-400">Follow us on social media for updates and special offers</p>
-            <p className="text-sm">&copy; {currentYear} Son Beel Haven. All rights reserved.</p>
+            <p className="text-sm">&copy; {currentYear} Travel SriBhumi. Akash Nath & Kamlesh Debnath All rights reserved.</p>
           </div>
         </div>
       </div>
