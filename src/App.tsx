@@ -4,6 +4,7 @@ import Section from './components/Section';
 import Map from './components/Map';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
+      <SpeedInsights />
       
       {/* Hero Section */}
       <Section id="home" className="pt-32 bg-gradient-to-b from-emerald-50 to-white">
