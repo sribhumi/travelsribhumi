@@ -126,13 +126,13 @@ function App() {
             // "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=2070&auto=format&fit=crop",
             // "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=2069&auto=format&fit=crop",
             // "https://images.unsplash.com/photo-1433477155337-9aea4e790195?q=80&w=2070&auto=format&fit=crop"
-            "./media/p1.png",
-            "./media/p2.jpeg",
+            "/media/p1.png",
+            "/media/p2.jpeg",
             // "./media/p3.jpg",
-            "./media/p3.jpg",
-            "./media/p4.jpg",
-            "./media/p5.jpg",
-            "./media/p8.png"
+            "/media/p3.jpg",
+            "/media/p4.jpg",
+            "/media/p5.jpg",
+            "/media/p8.png"
           ].map((src, index) => (
             <div key={index} className="relative aspect-square overflow-hidden rounded-lg">
               <img 
