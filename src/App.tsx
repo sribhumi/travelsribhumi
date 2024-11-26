@@ -4,6 +4,7 @@ import Section from './components/Section';
 import Map from './components/Map';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   const amenities = [
